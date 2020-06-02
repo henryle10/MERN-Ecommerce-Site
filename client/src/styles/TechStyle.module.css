@@ -10,3 +10,11 @@
 .techProductDiv{
     max-width: 10vw;
 }
+
+li a{
+    cursor: pointer;
+}
+
+li a:hover{
+    text-decoration: underline;
+}
