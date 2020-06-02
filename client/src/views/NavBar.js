@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from '../styles/TechStyle.module.css';
+
 const NavBar = props => {
     return (
         <nav className="navbar navbar-expand-lg p-3">
