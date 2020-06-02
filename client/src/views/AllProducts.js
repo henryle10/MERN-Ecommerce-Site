@@ -37,8 +37,8 @@ const Products = (props) => {
 
     return (
         <div className="text-left p-5">
-            {/* <h2 className={styles.textTech}>View All Tech Products</h2> */}
-            <h2>This is new</h2>
+            <h2 className={styles.textTech}>View All Tech Products</h2>
+            <h2>Back to normal</h2>
             <div className="d-flex flex-wrap mt-5">
                 {products.map((product) => {
                     return (
