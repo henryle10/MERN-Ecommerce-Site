@@ -18,3 +18,12 @@ li a{
 li a:hover{
     text-decoration: underline;
 }
+
+/* side navbar */
+.sideNavContainer ul > li{
+    list-style: none;
+    padding: 5px;
+    color: #3F669B;
+    background-color: beige;
+    
+}
