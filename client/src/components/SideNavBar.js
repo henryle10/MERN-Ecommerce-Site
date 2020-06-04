@@ -1,18 +1,15 @@
 import React from 'react';
 import styles from '../styles/TechStyle.module.css';
+import { Link } from "@reach/router";
 
 const SideNavBar = props => {
     return (
-        <div class="sidenav">
-            <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Clients</a>
-            <a href="#">Contact</a>
-        </div>
-
-        <div class="main">
-            ...
-        </div>
+        <div className={`col-md-2 ${styles.sideNavContainer} p-2`} >
+            <ul>
+                <li><Link to="/">Home</Link></li>
+            </ul>
+            <hr />
+        </div >
     )
 }
 

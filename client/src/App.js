@@ -30,21 +30,21 @@ function App() {
       })
       .catch(console.log);
 
-    navigate("/");
+    navigate("/login");
   };
 
   return (
     <div className="App">
       <NavBar />
       <br />
-      <button onClick={logout}>Logout</button>
-      <Link to="/all/products">All Products </Link>{" "}
+      {/* <button onClick={logout}>Logout</button> */}
+      {/* <Link to="/all/products">All Products </Link>{" "}
       <Link to="/product/new">New Product </Link>
-      <Link to="/users">Get Users List </Link>
+      <Link to="/users">Get Users List </Link> */}
       <Router>
         {/* <Redirect from="/" to="/products" noThrow="true" /> */}
         {/* <NotFound default /> */}
-        <LogReg path="/" />
+        <LogReg path="/login" />
         <UserList path="/users" />
         <NewProduct path="/product/new" />
         <AllProducts path="/all/products" />
