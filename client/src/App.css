@@ -36,3 +36,40 @@
     transform: rotate(360deg);
   }
 }
+
+/* ---------------- HERO COMPONENT ---------------- */
+
+.HERO-GRID{
+  display: grid;
+  grid-template-columns: 65% 35%;
+  gap: 10px;
+}
+
+.HERO-GRID > div{
+  height: 70vh;
+}
+
+.HERO-GRID > div:nth-child(odd){
+  display: grid;
+  gap: 10px;
+  background-color: #DEDEDE;
+}
+
+.HERO-GRID > div:nth-child(odd):hover{
+  background-color: #000000;
+  color: white;
+}
+
+.HERO-GRID > div:nth-child(even){
+  display: grid;
+  gap: 10px;
+}
+
+.HERO-CHILDREN-GRID > div{
+  background-color: #DEDEDE;
+}
+
+.HERO-CHILDREN-GRID > div:hover{
+  background-color: #000000 !important; 
+  color:white;
+}

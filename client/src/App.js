@@ -11,6 +11,7 @@ import EditProduct from "./views/EditProduct";
 import LogReg from "./views/LogReg";
 import UserList from "./views/UserList";
 import NavBar from "./views/NavBar";
+import Home from './views/Home';
 
 
 
@@ -36,7 +37,6 @@ function App() {
   return (
     <div className="App">
       <NavBar />
-      <br />
       {/* <button onClick={logout}>Logout</button> */}
       {/* <Link to="/all/products">All Products </Link>{" "}
       <Link to="/product/new">New Product </Link>
@@ -44,6 +44,7 @@ function App() {
       <Router>
         {/* <Redirect from="/" to="/products" noThrow="true" /> */}
         {/* <NotFound default /> */}
+        <Home path="/"/>
         <LogReg path="/login" />
         <UserList path="/users" />
         <NewProduct path="/product/new" />
