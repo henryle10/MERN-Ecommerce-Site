@@ -11,7 +11,7 @@ import EditProduct from "./views/EditProduct";
 import LogReg from "./views/LogReg";
 import UserList from "./views/UserList";
 import NavBar from "./views/NavBar";
-
+import Cart from "./components/Cart";
 
 
 function App() {
@@ -36,6 +36,7 @@ function App() {
   return (
     <div className="App">
       <NavBar />
+      <Cart></Cart>
       <br />
       {/* <button onClick={logout}>Logout</button> */}
       {/* <Link to="/all/products">All Products </Link>{" "}

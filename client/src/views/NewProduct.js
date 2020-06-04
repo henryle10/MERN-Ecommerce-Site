@@ -77,15 +77,41 @@ const NewProduct = (props) => {
                         <label>Category: </label>
                     </div>
                     <div className="col-md-8">
+                        <label> Computer
                         <input
-                            className="form-control"
-                            type="text"
-                            value={category}
-                            onChange={(event) => {
-                                setCategory(event.target.value);
+                                type="radio"
+                                name="category"
+                                onChange={() => {
+                                    setCategory("Computer");
+                                }}
+                            />
+                        </label>
+                        <label> Keyboard
+                        <input
+                                type="radio"
+                                name="category"
+                                onChange={() => {
+                                    setCategory("Keyboard");
+                                }}
+                            />
+                        </label>
+                        <label> Mouse</label>
+                        <input
+                            type="radio"
+                            name="category"
+                            onChange={() => {
+                                setCategory("Mouse");
                             }}
                         />
-                        {errors.category ? (<span style={{ color: "red" }}>{errors.category.message}</span>) : ("")}
+                        <label> Monitor
+                        <input
+                                type="radio"
+                                name="category"
+                                onChange={() => {
+                                    setCategory("Monitor");
+                                }}
+                            />
+                        </label>
                     </div>
                 </div>
                 <br />

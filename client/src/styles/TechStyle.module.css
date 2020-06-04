@@ -9,6 +9,8 @@
 
 .techProductDiv{
     max-width: 10vw;
+    padding-left: 10px;
+    border: 1px solid black;
 }
 
 /* side navbar */
@@ -17,5 +19,6 @@
     padding: 5px;
     color: #3F669B;
     background-color: beige;
-    
 }
+
+
