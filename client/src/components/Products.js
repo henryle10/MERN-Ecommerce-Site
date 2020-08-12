@@ -24,7 +24,7 @@ class Products extends Component {
                         onClick={(e) => this.props.handleAddToCart(e, product)}
                     >
                         Add to cart
-          </button>
+                    </button>
                 </div>
             </div>
         ));
